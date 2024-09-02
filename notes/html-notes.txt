@@ -1,0 +1,60 @@
+Inline elements
+  <em></em> used to ephasise resultng in italics
+  <strong></strong> used to emphasise resulting in bold and bigger text
+  &nbsp; for indentation
+  &lt; less than symbol
+  %gt; greater than symbol
+  %copy; copyright symbol
+  <code></code> to display code in web pages
+  <mark></mark> to highlight
+
+Block level elements
+  <address></address> used to specify an address
+  <nav></nav> used to create navbars
+
+Link conventions
+  <a href=""download</a> to download
+  <a href="tel:"download</a> to call
+  <a href="mailto:"</a> to mail
+  <a href="" target="_blank"</a> to open in a new tab
+  <a href="/"</a> to open the home page of the website
+
+Images
+  <img src="" alt="" {attr=title,width,height,loading}
+  <img src="../images/img.png" alt="an image">
+  <img src="../images/img.png" alt="an image"> html5 convention
+  <img src="../images/img.png" alt="an image"/> react convention
+  loading="lazy" for pages to load faster by not loading images below the fold until needed
+  <figure></figure> to wrap images in a figure
+    <figcaption></figcaption> to set caption for the image in the figure
+  The figure/figcaption can be used for elements other than images
+  Use TinyPNG to compress images and save load time
+
+Semantic Tags
+  <header></header>
+    <nav></nav>
+  <main></main>
+    <article></article>
+    <aside></aside>
+    <details></details>
+      <summary></summary>
+    <section></section>
+  <footer></footer>
+
+Tables
+  <table>
+    <thead>
+      <tr>
+        <td {rowspan, colspan}>
+        </td>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot></tfoot>
+  </table>
+
+Forms
+  <form action="#" method="get">
+    <label for=""></label>
+    <input type="text" name="" id="" placeholder="" autocomplete="on" required autofocus>	
+	</form>

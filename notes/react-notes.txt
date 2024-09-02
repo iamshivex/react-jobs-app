@@ -1,0 +1,15 @@
+State Management
+  We have component level state and app level state
+  We use state by importing the {useState} hook from react
+
+  Then we define the state and name it thus:
+
+  const[doThis, setDoThis] = useState(false)
+
+  What this does is to define the state, name it and the function that We'd use to activate it. Also, a default state is set
+
+Events
+  Use onClick to add events
+
+useEffect hook
+  it allows components to have side effects 

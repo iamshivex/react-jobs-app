@@ -1,0 +1,46 @@
+variable is a bucket for storing data
+we use var function to store data that can be changed
+we use let or const function to store unchangeable data
+objects are used to store more than one variables
+the variables in an object are called properties
+objects are also a reference type because they allow us to store multiple data types
+    unlike primitive types which only store one data
+arrays are objects that are used to store a list of data using square brackets
+function is a bucket for saving saving code logic
+    they collect argument in parentheses
+    they allow us to implement code logic without rewriting the logic
+or operator returns true if at least one of the values is true
+and operator returns true if all values are true
+not operator returns the opposite of a value
+logical opeartors are used to perform logical functions which typically returns a boolean value
+false values include: undefined, null, 0, false, ", NaN
+operator precedence: PDMAS
+for loops contain initialisation, condition and implementation
+// difference between for loops and while loops is the arrangemnet of teh syntax
+// for loops is used when the number of iteration is known beforehand
+// while loops is used for when it's not known
+// for in loop is used to iterate a javascript object and access its values
+// for off loops is used to iterate over an array to access the element
+A function within an object is called a method
+A variable within an object is called a property
+JavaScript oobjects are used to store key value pairs.
+    Their purpose is to store state and behaviour
+    State is represented  by properties
+    Behaviour is represented by functions within the object i.e method
+factory functions provide an efficient way to create a new object.
+Primitive values are passed by copy
+objects are copied by reference
+primitivae are copied by values
+arrow function syntax:
+    const add = (param1, param2) => {
+        return param1 + param2
+    }
+Any parameter that doesn't have an explicit argument is automatically assigned as undefined so that functions don't break
+Arguments are array-like i.e. they're iterable by some array methods
+Classes are used to create reuseable objects
+Modules are files
+Object Oriented Programming is a programming pattern that is centred around objects rather than functions
+The four key pillars of OOP are:
+    Encapsulation, Abstraction, Inheritance, Polymorphism
+Encapsulation is the grouping of related variables and functions into an object
+An object with more than one method has "behaviour"
