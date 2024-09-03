@@ -12,4 +12,9 @@ Events
   Use onClick to add events
 
 useEffect hook
-  it allows components to have side effects 
+  it allows components to have side effects
+  it works by taking in a function and a dependecy array
+    useEffect(() => [])
+  it runs everytime the dependecy changes i.e the array []
+  Have an empty array to prevent a never ending loop
+  the hook will continue to run without a dependecy array
