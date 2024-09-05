@@ -83,6 +83,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "7",
+      "title": "React Instructor",
+      "type": "Full-Time",
+      "location": "Lagos",
+      "description": "Teach kids react during summer break",
+      "salary": "Under $50K",
+      "company": {
+        "name": "TechRoyale",
+        "description": "Tech Hub for starters",
+        "contactEmail": "techroyale@gmail.com",
+        "contactPhone": "09012345678"
+      }
     }
   ]
 }

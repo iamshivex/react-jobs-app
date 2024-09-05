@@ -8,6 +8,8 @@ State Management
 
   What this does is to define the state, name it and the function that We'd use to activate it. Also, a default state is set
 
+  When adding a piece of state to an input, an onChange has to be added to call the function that'd be use to activate it
+
 Events
   Use onClick to add events
 
